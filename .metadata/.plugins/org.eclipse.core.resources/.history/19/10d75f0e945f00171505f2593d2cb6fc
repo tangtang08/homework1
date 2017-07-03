@@ -1,0 +1,30 @@
+package methodsObjs;
+import java.io.InputStream;
+//Import Scanner 
+import java.util.Scanner;
+
+public class AdsubMuldiv1 {
+	
+
+	public static void main(String[] args) {
+	
+		Scanner keyboard=new Scanner(System.in);
+		int input1 = keyboard.nextInt();
+		int input2 = keyboard.nextInt();
+		
+		
+		//declare my object 
+		AdsubMuldiv1 obj1 = new AdsubMuldiv1();		
+		System.out.println(obj1.add( input1,  input2));
+
+	}
+	// create the add method
+
+	public static int add(int input1, int input2){
+		int z= input1 + input2;
+		System.out.println(z);
+		return z;
+	
+	}
+
+}

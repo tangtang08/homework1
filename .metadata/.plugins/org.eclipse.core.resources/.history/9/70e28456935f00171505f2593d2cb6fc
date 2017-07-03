@@ -1,0 +1,23 @@
+package methodsObjs;
+//import java.io.InputStream;
+//Import Scanner 
+//import java.util.Scanner;
+
+public class AdsubMuldiv1 {
+	
+
+	public static void main(String[] args) {
+		int x=10;
+		int y=5;
+	}
+	// create the add method
+
+	public static int add(int x, int y){
+		
+		int z;
+		z=x+y;
+		
+		return z;
+	}
+
+}

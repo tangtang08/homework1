@@ -1,0 +1,43 @@
+package methodsObjs;
+import java.io.InputStream;
+// Step 1 Import Scanner 
+import java.util.Scanner;
+
+public class AdsubMuldiv1 {
+	
+	public static void main(String[] args) {
+		
+		System.out.println("Press to: 1)Add 2)Subtract 3)Multiply 4)Divide");
+		
+		//create an If statement
+	
+		//Step 2 create the scanner input
+		Scanner keyboard=new Scanner(System.in);
+		//Step 3 Declare name of the scanner input
+		int input1 = keyboard.nextInt();
+		int input2 = keyboard.nextInt();
+		
+		 int menu = keyboard.nextInt();
+		//Step 7 create my Object 
+		AdsubMuldiv1 obj1 = new AdsubMuldiv1();		
+		if (menu==1){
+
+		// Step 8 print the results of the output to the screen 
+		System.out.println(obj1.add( input1,  input2));
+		}
+	}
+	
+	
+
+	// Step 4 create the 'add' Method
+	public static int add(int input1, int input2){
+		//Step 5 calculate the inputs
+
+
+		int z= input1 + input2;
+		// Step 6 Return the calculation to the main method 
+		return z;
+		}
+	}
+
+}
